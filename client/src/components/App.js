@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header";
-
+import About from "./About";
 class App extends Component {
   render() {
     return (
@@ -10,24 +10,7 @@ class App extends Component {
         </header>
 
         <div id="main">
-          <section id="one">
-            <header class="major">
-              <h2>About Me</h2>
-            </header>
-            <p>
-              Hello, I'm Vu, a software developer from Orange County,
-              California. I love tackling challenges and finding solutions to
-              complex problems. MY passion is to create apps that make positive
-              impacts on others.
-            </p>
-            <ul class="actions">
-              <li>
-                <a href="#" class="button">
-                  My Resume
-                </a>
-              </li>
-            </ul>
-          </section>
+          <About />
 
           <section id="two">
             <h2>Recent Work</h2>
